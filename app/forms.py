@@ -18,3 +18,5 @@ class CreateUser(UserCreationForm):
         fields =['username','first_name','last_name','email','password1','password2']
     
 
+class VerifyForm(forms.Form):
+    otp = forms.CharField(label='OTP',max_length=70,widget=forms.TextInput(attrs={'class':'form-control','placeholder':'OTP','required':True}),error_messages={'required':'Enter a otp'})
