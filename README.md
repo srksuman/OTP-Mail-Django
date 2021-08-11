@@ -1,3 +1,6 @@
+#Demo
+![imggif](https://user-images.githubusercontent.com/67781881/128988834-a93bfd8e-805d-4720-97d8-93567cdf211a.gif)
+
 # Setup Sending Email in Django Project 
 When We register on some websites, we will get a mail from that company or institution? The email would be, verification email or welcome email, account creation successful email or thanks-regard email, etc. For example, when we create a Google account, the first mail we get would be something like, “Hi Xyz, Welcome to Google. Your new account comes with access to Google products, apps, and services…..” Sending these types of emails from your Django application is quite easy.
 Although we can refer to the <a href="https://docs.djangoproject.com/en/3.2/topics/email/">documentation</a> for knowing more about sending emails in Django, but this is remarkably condensed and made easier.
